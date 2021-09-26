@@ -69,10 +69,10 @@ CREATE TABLE h_vendas (
 );
 
 -- PKs
-ALTER TABLE h_cargos ADD CONSTRAINT pk_hcrg PRIMARY KEY ( hcrg_id );
-ALTER TABLE h_categorias ADD CONSTRAINT pk_hcat PRIMARY KEY ( hcat_id );
-ALTER TABLE h_fornecedores ADD CONSTRAINT pk_hfor PRIMARY KEY ( hfor_id );
-ALTER TABLE h_funcionarios ADD CONSTRAINT pk_hfun PRIMARY KEY ( hfun_id );
-ALTER TABLE h_itens_venda ADD CONSTRAINT pk_hitv PRIMARY KEY ( hitv_vnd_id, hitv_prd_id );
-ALTER TABLE h_produtos ADD CONSTRAINT pk_hprd PRIMARY KEY ( hprd_id );
-ALTER TABLE h_vendas ADD CONSTRAINT pk_hvnd PRIMARY KEY ( hvnd_id );
+ALTER TABLE h_cargos ADD CONSTRAINT pk_hcrg PRIMARY KEY ( hcrg_id, hcrg_dt_entrada );
+ALTER TABLE h_categorias ADD CONSTRAINT pk_hcat PRIMARY KEY ( hcat_id, hcat_dt_entrada );
+ALTER TABLE h_fornecedores ADD CONSTRAINT pk_hfor PRIMARY KEY ( hfor_id, hfor_dt_entrada );
+ALTER TABLE h_funcionarios ADD CONSTRAINT pk_hfun PRIMARY KEY ( hfun_id, hfun_dt_entrada );
+ALTER TABLE h_itens_venda ADD CONSTRAINT pk_hitv PRIMARY KEY ( hitv_vnd_id, hitv_prd_id, hitv_dt_entrada );
+ALTER TABLE h_produtos ADD CONSTRAINT pk_hprd PRIMARY KEY ( hprd_id, hprd_dt_entrada );
+ALTER TABLE h_vendas ADD CONSTRAINT pk_hvnd PRIMARY KEY ( hvnd_id, hvnd_dt_entrada );
