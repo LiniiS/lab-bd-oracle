@@ -1,4 +1,4 @@
---stage table v1
+--stage table v2
 -- tabela com dados transacionais para data warehouse
 
 create table stage_table (
@@ -9,7 +9,7 @@ create table stage_table (
     stg_fun_nome VARCHAR2(46),
     stg_for_uf_origem CHAR(2),    
     stg_tipo_cliente VARCHAR2(4),
-     stg_vnd_total NUMBER(8,2),
+    stg_vnd_total NUMBER(8,2),
     stg_vnd_periodo VARCHAR2(6),
     stg_vnd_trimestre INTEGER,   
     stg_vnd_dia_semana VARCHAR2(30) 
