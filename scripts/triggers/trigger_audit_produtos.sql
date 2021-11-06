@@ -1,6 +1,6 @@
 -- Trigger para inserção em AUDIT_TABLE após eventos em PRODUTOS
 create trigger tg_prd_aud_tab
-after INSERT, UPDATE OR DELETE on PRODUTOS
+after INSERT OR UPDATE OR DELETE on PRODUTOS
 for each row
 begin
 
