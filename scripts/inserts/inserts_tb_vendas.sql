@@ -3,6 +3,7 @@
 
 -- vendedores id: 1. fun_id: 6, 12,13,14,15
 --REMOVER AS ASPAS SIMPLES DO vnd_valor_total NO SQL DEVELOPER / NO SQL LIVE ACEITA
+-- cpfs:
 insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('58106028860', 19.90, '23/08/2021 13:56:12', 6);
 insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('88695650090', 340.24, '15/04/2021 10:36:45', 12);
 insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('09050337015', 19.55, '10/09/2021 10:16:25', 12);
@@ -38,3 +39,9 @@ insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) val
 insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('62203470054', 109.99, '18/05/2021 15:05:15', 15);
 insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('58976850025', 41.23, '14/08/2021 12:13:48', 14);
 insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('26879069053', 34.93, '30/08/2021 13:45:23', 13); 
+
+-- cnpjs:
+insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('67409460000149', 1497.45, '23/02/2021 10:46:35', 6);
+insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('42809804000186', 2506.65, '10/07/2021 08:05:15', 6);
+insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('88061709000148', 2398.5, '08/08/2021 13:37:48', 12);
+insert into vendas (vnd_doc_cliente, vnd_valor_total, vnd_dt_hr, vnd_fun_id) values ('02855275000132', 478.80, '18/09/2021 13:45:23', 15);

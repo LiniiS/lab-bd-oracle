@@ -45,3 +45,8 @@ insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (27, 56, 
 insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (28, 63, 1); 
 insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (29, 64, 1); 
 insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (30, 54, 1); 
+
+insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (31, 15, 28); 
+insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (32, 22, 15);
+insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (33, 19, 15); 
+insert into itens_venda(itv_vnd_id, itv_prd_id, itv_quantidade) values (34, 15, 12);  
