@@ -51,7 +51,7 @@ CREATE TABLE produtos (
 
 CREATE TABLE vendas (
     vnd_id          NUMBER(6),
-    vnd_doc_cliente CHAR(14),
+    vnd_doc_cliente VARCHAR2(14),
     vnd_valor_total NUMBER(8, 2),
     vnd_dt_hr       DATE,
     vnd_fun_id      NUMBER(6)

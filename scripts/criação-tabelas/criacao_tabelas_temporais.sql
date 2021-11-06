@@ -61,7 +61,7 @@ CREATE TABLE h_produtos (
 
 CREATE TABLE h_vendas (
     hvnd_id          NUMBER(6),
-    hvnd_doc_cliente CHAR(14),
+    hvnd_doc_cliente VARCHAR2(14),
     hvnd_valor_total NUMBER(8, 2),
     hvnd_dt_hr       DATE,
     hvnd_fun_id      NUMBER(6),
